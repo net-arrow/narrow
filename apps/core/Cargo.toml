@@ -1,0 +1,11 @@
+[package]
+name = "narrow"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hyper = { version = "0.14", features = ["full"] }
+tokio = { version = "1", features = ["full"] }
+prettytable-rs = "0.10"
+clap = { version = "4.0", features = ["derive"] }
+chrono = "0.4.38"

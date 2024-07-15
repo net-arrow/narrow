@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "turbo run test"
+  },
+  "devDependencies": {
+    "@turbo/gen": "1.13.3",
+    "@types/node": "20.8.0",
+    "turbo": "1.13.3",
+    "typescript": "5.5.2"
+  },
+  "packageManager": "pnpm@9.1.4",
+  "name": "narrow",
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "packages/config/*",
+    "packages/notifications/*"
+  ]
+}
